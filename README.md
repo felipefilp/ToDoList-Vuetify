@@ -1,83 +1,94 @@
-# vue-todo
+# 📝 To-Do List App
 
-Scaffolded with Vuetify CLI.
+Uma aplicação simples e moderna de lista de tarefas (To-Do List), desenvolvida com foco em organização, usabilidade e experiência visual.
 
-## ❗️ Documentation
+---
 
-- Primary docs: https://vuetifyjs.com/
-- Getting started guide: https://vuetifyjs.com/en/getting-started/installation/
-- Community support: https://community.vuetifyjs.com/
-- Issue tracker: https://issues.vuetifyjs.com/
+## 🚀 Tecnologias utilizadas
 
-## 🧱 Stack
+* Vue 3
+* Vuetify (UI Framework)
+* Pinia (Gerenciamento de estado)
+* Animate.css (Animações)
 
-- Framework: Vue 3 + Vite
-- UI Library: Vuetify
-- Language: TypeScript
-- Package manager: yarn
+---
 
-## 🧭 Start Here
+## 🎯 Funcionalidades
 
-- Main entry: `src/main.ts`
-- Main app component: `src/App.vue`
-- Main styles: `src/styles/`
-- Plugin setup: `src/plugins/`
+* ✅ Criar tarefas
+* 🗑️ Remover tarefas
+* ✏️ Editar tarefas
+* 💾 Persistência de dados no LocalStorage
+* 🔔 Notificações visuais
+* 🎨 Interface moderna com Vuetify
+* ⚡ Animações suaves com Animate.css
 
-## 📁 Project Structure
+---
 
-- `src/main.ts` — application entry point
-- `src/App.vue` — root component
-- `src/components/` — reusable Vue components
-- `src/plugins/` — plugin registration and setup
-- `src/styles/` — global styles and theme settings
-- `public/` — static public files
+## 📦 Instalação e execução
 
-## ✨ Enabled Features
+Clone o repositório:
 
-- ESLint
-- Pinia
-- Vue I18n
-- Vuetify MCP
-- Vue Router
+```bash
+git clone https://github.com/felipefilp/ToDoList-Vuetify.git
+```
 
-## 💿 Install
+Acesse a pasta:
 
-Use your selected package manager (yarn) to install dependencies:
+```bash
+cd ToDoList-Vuetify
+```
+
+Instale as dependências:
 
 ```bash
 yarn install
 ```
 
-## 🚀 Quick Start
+Execute o projeto:
 
 ```bash
-yarn install
-yarn dev
+yarn run dev
 ```
 
-## 🏗️ Build
+---
+
+## 📁 Estrutura do projeto
 
 ```bash
-yarn build
+src/
+│── assets/
+│── components/
+    │── dialog/
+    │── shared/
+│── layouts/
+│── pages/
+│── plugins/
+│── stores/
+│── App.vue
+│── main.js
 ```
 
-## 🧪 Available Scripts
+---
 
-- `yarn dev`
-- `yarn build`
-- `yarn preview`
-- `yarn build-only`
-- `yarn type-check`
-- `yarn lint`
-- `yarn lint:fix`
-- `yarn mcp`
-- `yarn mcp:revert`
+## 🧠 Aprendizados
 
-## 💪 Support Vuetify Development
+Este projeto foi desenvolvido para praticar:
 
-This project uses Vuetify - an MIT licensed Open Source project. We are glad to welcome contributors and any support for ongoing development:
+* Gerenciamento de estado com Pinia
+* Criação de interfaces com Vuetify
+* Organização de código em Vue 3
+* Boas práticas de frontend
+* Uso de animações para melhorar UX
 
-- Contribute to Vuetify and ecosystem projects: https://github.com/vuetifyjs
-- Request enterprise support: https://support.vuetifyjs.com/
-- Sponsor on GitHub: https://github.com/sponsors/vuetifyjs
-- Support on Open Collective: https://opencollective.com/vuetify
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por mim 🚀
